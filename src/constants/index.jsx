@@ -96,42 +96,42 @@ export const SKILLS = [
   {
     icon: <FaHtml5 className="text-4xl text-orange-500 lg:text-5xl" />,
     name: "HTML",
-    experience: "1+ years",
+    website: "https://developer.mozilla.org/en-US/docs/Web/HTML"
   },
   {
     icon: <FaCss3Alt className="text-4xl text-blue-500 lg:text-5xl" />,
     name: "CSS",
-    experience: "1+ years",
+    website: "https://developer.mozilla.org/en-US/docs/Web/CSS"
   },
   {
     icon: <SiJavascript className="text-4xl text-yellow-400 lg:text-5xl" />,
     name: "JavaScript",
-    experience: "1+ years",
+    website: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
   },
   {
     icon: <FaReact className="text-4xl text-cyan-400 lg:text-5xl" />,
     name: "React",
-    experience: "0.5+ years",
+    website: "https://react.dev"
   },
   {
     icon: <SiMysql className="text-4xl text-blue-700 lg:text-5xl" />,
     name: "MySQL",
-    experience: "0.5+ year",
+    website: "https://www.mysql.com"
   },
   {
     icon: <SiFigma className="text-4xl text-pink-500 lg:text-5xl" />,
     name: "Figma",
-    experience: "1.5+ year",
+    website: "https://www.figma.com"
   },
   {
     icon: <SiCanva className="text-4xl text-indigo-500 lg:text-5xl" />,
     name: "Canva",
-    experience: "1+ year",
+    website: "https://www.canva.com"
   },
   {
     icon: <FaJava className="text-4xl text-red-600 lg:text-5xl" />,
     name: "Java",
-    experience: "1+ years",
+    website: "https://www.oracle.com/java"
   },
 ];
 
