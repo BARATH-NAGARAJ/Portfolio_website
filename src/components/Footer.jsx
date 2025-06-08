@@ -33,10 +33,6 @@ const Footer = () => {
           </motion.a>
         ))}
       </div>
-
-      <p className="mt-8 text-center text-sm tracking-wide text-gray-400">
-        &copy; compileTab. All rights reserved.
-      </p>
     </footer>
   );
 };
