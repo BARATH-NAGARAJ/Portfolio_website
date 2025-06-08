@@ -47,7 +47,7 @@ export const PROJECTS = [
     description:
     "A sleek and responsive portfolio site created using React, Tailwind CSS, and Framer Motion. It highlights my skills, projects, and contact details with elegant animations and a clean, user-friendly layout that works great on any device.",
     image: projectImage2,
-    githubLink: "https://github.com/user/ecommerce-platform",
+    githubLink: "https://github.com/BARATH-NAGARAJ/Portfolio_website",
   },
   {
     id: 3,
