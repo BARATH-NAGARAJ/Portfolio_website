@@ -186,7 +186,7 @@ export const EDUCATION = [
 
 export const SOCIAL_MEDIA_LINKS = [
   {
-    href: "https://www.instagram.com/its.me.barath?igsh=MTl5d3FodW1xeWNvYw==",
+    href: "https://www.instagram.com/_its.__me.__barath_/",
     icon: <FaInstagram fontSize={25} className="hover:opacity-80" />,
   },
   {
