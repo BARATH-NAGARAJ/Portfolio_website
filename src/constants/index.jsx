@@ -186,7 +186,7 @@ export const EDUCATION = [
 
 export const SOCIAL_MEDIA_LINKS = [
   {
-    href: "https://x.com/",
+    href: "https://www.instagram.com/its.me.barath?igsh=MTl5d3FodW1xeWNvYw==",
     icon: <FaInstagram fontSize={25} className="hover:opacity-80" />,
   },
   {
@@ -198,7 +198,7 @@ export const SOCIAL_MEDIA_LINKS = [
     icon: <FaLinkedin fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://leetcode.com/u/BarathNagaraj/", // replace this
+    href: "https://leetcode.com/u/BarathNagaraj/", 
     icon: <FaCode fontSize={25} className="hover:opacity-80" />,
   },
 ];
