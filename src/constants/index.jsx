@@ -26,7 +26,7 @@ export const NAVIGATION_LINKS = [
 ];
 
 export const HERO = {
-  name: "BARATH NAGARAJ",
+  name: "BARATH N",
   greet: "Hello there! 👋🏻",
   description:
     "I am a frontend developer passionate about crafting clean, user-friendly interfaces. Currently pursuing my degree in Computer Science and Design, I enjoy turning creative ideas into practical and engaging web experiences.",
