@@ -1,5 +1,5 @@
 import { SOCIAL_MEDIA_LINKS } from '../constants';
-import logob1 from '../assets/logob1.png';
+import logob2 from '../assets/logob2.png';
 import { motion } from 'framer-motion';
 
 const Footer = () => {
@@ -10,7 +10,7 @@ const Footer = () => {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.5 }}
-          src={logob1}
+          src={logob2}
           alt="compileTab Logo"
           width={200}
           className="my-20"
