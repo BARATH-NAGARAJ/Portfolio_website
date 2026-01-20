@@ -6,17 +6,17 @@ import { motion } from 'framer-motion'
 const Hero = () => {
     const handleDownloadResume = async () => {
         try {
-            const response = await fetch('/resume.pdf');
+            const response = await fetch('/Barath_Resume_P.pdf');
             
             if (!response.ok) {
-                window.open('/resume.pdf', '_blank');
+                window.open('/Barath_Resume_P.pdf', '_blank');
                 return;
             }
             const blob = await response.blob();
             const url = window.URL.createObjectURL(blob);
             const link = document.createElement('a');
             link.href = url;
-            link.download = 'Barath_Resume.pdf';
+            link.download = 'Barath_Resume_P.pdf';
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
@@ -25,12 +25,12 @@ const Hero = () => {
             console.log('Resume download initiated successfully!');
         } catch (error) {
             console.error('Error downloading resume:', error);
-            window.open('/resume.pdf', '_blank');
+            window.open('/Barath_Resume_P.pdf', '_blank');
         }
     };
 
     const handleDownloadResumeAlt = () => {
-        window.open('/resume.pdf', '_blank');
+        window.open('/Barath_Resume_P.pdf', '_blank');
     };
 
     return (
@@ -156,8 +156,8 @@ const Hero = () => {
                             transition: { duration: 0.2 }
                         }}
                         src={BARATH} 
-                        width={550}  
-                        height={550} 
+                        width={500}  
+                        height={500} 
                         alt="Barath" 
                         className="rounded-3xl shadow-lg"
                         loading="eager"

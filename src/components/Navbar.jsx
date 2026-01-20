@@ -32,7 +32,7 @@ const Navbar = () => {
     <div>
       <nav className="fixed left-0 right-0 top-4 z-50">
         {/* Desktop Menu */}
-        <div className="mx-auto hidden max-w-2xl items-center justify-center rounded-lg border border-stone-50/30 bg-black/20 py-3 backdrop-blur-lg lg:flex">
+        {/* <div className="mx-auto hidden max-w-2xl items-center justify-center rounded-lg border border-stone-50/30 bg-black/20 py-3 backdrop-blur-lg lg:flex">
           <div className="flex items-center justify-between gap-6">
             <div>
               <a href="#">
@@ -55,8 +55,33 @@ const Navbar = () => {
               </ul>
             </div>
           </div>
-        </div>
+        </div> */}
 
+        {/* Desktop Menu */}
+        <div className="mx-auto hidden w-fit items-center rounded-lg border border-stone-50/30 bg-black/20 px-6 py-2 backdrop-blur-lg lg:flex">
+          <div className="flex items-center gap-6">
+            <div>
+              <a href="#">
+                <img src={logob1} width={130} alt="logo" />
+              </a>
+            </div>
+
+            <ul className="flex items-center gap-4">
+              {NAVIGATION_LINKS.map((item, index) => (
+                <li key={index}>
+                  <a
+                    className="text-sm hover:text-yellow-400 transition-colors"
+                    href={item.href}
+                    onClick={(e) => handleLinkClick(e, item.href)}
+                  >
+                    {item.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+        
         {/* Mobile Menu */}
         <div className="rounded-lg backdrop-blur-md lg:hidden">
           <div className="flex items-center justify-between">

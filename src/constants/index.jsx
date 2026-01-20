@@ -4,6 +4,8 @@ import {
   FaInstagram,
   FaCode,
 } from "react-icons/fa6";
+import { FaAngular, FaPython } from "react-icons/fa";
+import { SiMongodb } from "react-icons/si";
 
 import projectImage1 from "../assets/project1.jpg";
 import projectImage2 from "../assets/project2.jpg";
@@ -29,7 +31,7 @@ export const HERO = {
   name: "BARATH N",
   greet: "Hello there! 👋🏻",
   description:
-    "I am a frontend developer passionate about crafting clean, user-friendly interfaces. Currently pursuing my degree in Computer Science and Design, I enjoy turning creative ideas into practical and engaging web experiences.",
+    "I am a Software Developer majoring in Computer Science and Design. My focus is on writing clean, functional code and building systems that solve actual problems. I enjoy the challenge of taking a concept and turning it into a working application.",
 };
 
 export const PROJECTS = [
@@ -85,12 +87,14 @@ export const PROJECTS = [
 ];
 
 export const BIO = [
-  "I am currently pursuing my Bachelor of Engineering in Computer Science and Design at Kongu Engineering College, and I’m expected to graduate in 2026. My course focuses heavily on UI design, game design, and all the creative aspects that combine technology with user experience. I enjoy learning about these areas and applying what I’ve studied in practical projects.",
-  "Alongside my studies, I have gained foundational knowledge in Java programming and developed a strong interest in frontend development. I am comfortable working with core web technologies such as HTML, CSS, JavaScript, and React, and I also have experience with MySQL for database management.",
+  " I am currently pursuing my Bachelor of Engineering in Computer Science and Design at Kongu Engineering College, and I’m expected to graduate in 2026. My course focuses heavily on UI design, game design, and all the creative aspects that combine technology with user experience. I enjoy learning about these areas and applying what I’ve studied in practical projects.",
+  
+  "Alongside my studies, I have gained foundational knowledge in Java programming and have recently expanded my skill set to include Angular. I am comfortable working with core web technologies such as HTML, CSS, JavaScript, and React, and I also have experience with MySQL and MongoDB for database management.",
+
   "I have participated in several coding competitions, which have helped me improve my problem-solving skills and coding abilities. One of my key projects was working as part of a team to build an e-commerce website for a saree business, where I took responsibility for the frontend development. This experience gave me valuable insight into teamwork, project management, and applying my technical skills in real-world scenarios.",
+
   "I am passionate about growing as a developer and designer, always eager to take on new challenges and create meaningful, user-friendly digital experiences."
 ];
-
 
 export const SKILLS = [
   {
@@ -132,6 +136,21 @@ export const SKILLS = [
     icon: <FaJava className="text-4xl text-red-600 lg:text-5xl" />,
     name: "Java",
     website: "https://www.oracle.com/java"
+  },
+    {
+    icon: <FaAngular className="text-4xl text-red-500 lg:text-5xl" />,
+    name: "Angular",
+    website: "https://angular.io"
+  },
+  {
+    icon: <SiMongodb className="text-4xl text-green-500 lg:text-5xl" />,
+    name: "MongoDB",
+    website: "https://www.mongodb.com"
+  },
+  {
+    icon: <FaPython className="text-4xl text-yellow-400 lg:text-5xl" />,
+    name: "Python",
+    website: "https://www.python.org"
   },
 ];
 
